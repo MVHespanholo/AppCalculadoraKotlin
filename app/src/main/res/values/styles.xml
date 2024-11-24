@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo base para todos os botões -->
+    <style name="BaseButtonStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para botões numéricos -->
+    <style name="NumberButtonStyle" parent="BaseButtonStyle">
+        <item name="android:backgroundTint">#212121</item>
+    </style>
+
+    <!-- Estilo para botões de operação -->
+    <style name="OperatorButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
